@@ -96,6 +96,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Data\step1.csv" />
+    <None Include="Data\step2.csv" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
