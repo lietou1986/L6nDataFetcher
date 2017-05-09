@@ -24,7 +24,7 @@ namespace L6nDataFetcher.Analyzer
             try
             {
                 var ie = new IE();
-                return ie.GetCookieContainerForUrl(new Uri(""));
+                return ie.GetCookieContainerForUrl(new Uri("https://www.linkedin.com/edu/a.m.-reddy-memorial-college-of-pharmacy-206173"));
             }
             catch (Exception ex)
             {

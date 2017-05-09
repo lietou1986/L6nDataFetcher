@@ -20,7 +20,7 @@ namespace L6nDataFetcher.Analyzer
         {
             chars.ForEach(n =>
             {
-                var url = string.Format("https://www.L6nDataFetcher.com/directory/universities-{0}/", n);
+                var url = string.Format("https://www.linkedin.com/directory/universities-{0}/", n);
 
                 using (SafeIE ie = new SafeIE(url))
                 {
